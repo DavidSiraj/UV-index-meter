@@ -1,0 +1,18 @@
+
+#define UV_PIN 32     // Pin pro ML8511
+
+void setup() {
+  Serial.begin(9600);
+
+}
+
+void loop() {
+  
+  int uvLevel = analogRead(UV_PIN);
+
+  Serial.print("Úroveň UV: ");
+  Serial.print(uvLevel);
+  Serial.println(" nm");
+
+  delay(200);
+}
