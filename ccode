@@ -1,5 +1,5 @@
 
-#define UV_PIN 32     // Pin pro ML8511
+#define UV_PIN 32     
 
 void setup() {
   Serial.begin(9600);
